@@ -56,25 +56,26 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
                let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
-*_Made With 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
+*_𝛲𝛥𝛪𝑅 𝐶𝛩𝐷𝛯 𝐶𝛩𝛮𝛮𝛯𝐶𝑇𝛯𝐷 𝐵𝑌 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
+*_𝛭𝛥𝐷𝛯 𝑊𝛪𝑇𝛨 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
 ______________________________________
 ╔════◇𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷
-║ *『 WOW YOU CHOOSEN 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ *『  𝑊𝛩𝑊 𝑌𝛩𝑈 𝐶𝛨𝛩𝛩𝑆𝛯𝛮 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷 』*
+║ _𝑌𝛩𝑈 𝛨𝛥𝛻𝛯 𝐶𝛩𝛭𝛲𝐿𝛯𝑇𝛯𝐷 𝑇𝛨𝛯 𝐹𝛪𝑅𝑆𝑇 𝑆𝑇𝛯𝛲 𝑇𝛩 𝐷𝛯𝛲𝐿𝛩𝑌 𝛥 𝑊𝛨𝛥𝑇𝑆𝛥𝛲𝛲 𝐵𝛩𝑇_
 ╚══════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://youtube.com/@sir-alex-piku-tech?si=WLrn-nEVhj20-5HI_
-║❒ *Owner:* _https://wa.me/qr/6GWQJ4TCBLHYI1_
-║❒ *Repo:* _https://github.com/Piku090909/ALEX_PIKU_MD.git_
-║❒ *WaGroup:* _https://chat.whatsapp.com/CKdmkNNkE8TATtarGnvOJY_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYESUGJkK7F76XsDj3L_
-║❒ *Plugins:* _https://github.com/Piku090909/ALEX-PIKU_MD_PLUGINS.git_
+║  『•••  𝛻𝛪𝑆𝛪𝑇 𝐹𝛩𝑅 𝛨𝛯𝐿𝛲 •••』
+║❒ *𝑌𝑇𝑈𝐵𝛯:* _https://youtube.com/@sir-alex-piku-tech?si=WLrn-nEVhj20-5HI_
+║❒ *𝛩𝑊𝛮𝛯𝑅:* _https://wa.me/qr/6GWQJ4TCBLHYI1_
+║❒ *𝑅𝛯𝛲𝛩:* _https://github.com/Piku090909/ALEX_PIKU_MD.git_
+║❒ *𝑊𝛥𝐺𝑅𝛩𝑈𝛲:* _https://chat.whatsapp.com/CKdmkNNkE8TATtarGnvOJY_
+║❒ *𝑊𝛥𝐶𝛨𝛥𝛮𝛮𝛯𝐿:* _https://whatsapp.com/channel/0029VaYESUGJkK7F76XsDj3L_
+║❒ *𝛲𝐿𝑈𝐺𝛪𝛮𝑆:* _https://github.com/Piku090909/ALEX-PIKU_MD_PLUGINS.git_
 ╚══════════════════════╝ 
 _____________________________________
 
-_Don't Forget To Give Star To My Repo_`
+	
+_𝐷𝛩𝛮'𝑇 𝐹𝛩𝑅𝐺𝛯𝑇 𝑇𝛩 𝐺𝛪𝛻𝛯 𝑆𝑇𝛥𝑅 𝑇𝛩 𝛭𝑌 𝑅𝛯𝛲𝛩_`
  await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
  
 
