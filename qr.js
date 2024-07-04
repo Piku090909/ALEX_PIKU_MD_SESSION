@@ -59,28 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Venocyber_Tech.sendMessage(Qr_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 	
 				   let VENOCYBER_MD_TEXT = `
-*_Qr Code By Venocyber Tech_*
-*_Made With 🤍_*
+*_ 𝑄𝑅 𝐶𝛩𝐷𝛯 𝐶𝛩𝛮𝛮𝛯𝐶𝑇𝛯𝐷 𝐵𝑌 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
+*_ 𝛭𝛥𝐷𝛯 𝑊𝛪𝑇𝛨 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
 ______________________________________
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+╔════◇𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷
+║ *『  𝑊𝛩𝑊 𝑌𝛩𝑈 𝐶𝛨𝛩𝛩𝑆𝛯𝛮 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷 』*
+║ _ 𝑌𝛩𝑈 𝛨𝛥𝛻𝛯 𝐶𝛩𝛭𝛲𝐿𝛯𝑇𝛯𝐷 𝑇𝛨𝛯 𝐹𝛪𝑅𝑆𝑇 𝑆𝑇𝛯𝛲 𝑇𝛩 𝐷𝛯𝛲𝐿𝛩𝑌 𝛥 𝑊𝛨𝛥𝑇𝑆𝛥𝛲𝛲 𝐵𝛩𝑇._
 ╚══════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
+║  『•••  𝛻𝛪𝑆𝛪𝑇 𝐹𝛩𝑅 𝛨𝛯𝐿𝛲 •••』
+║❒ * 𝑌𝑇𝑈𝐵𝛯:* _https://youtube.com/@sir-alex-piku-tech?si=WLrn-nEVhj20-5HI_
+║❒ * 𝛩𝑊𝛮𝛯𝑅:* _https://wa.me/qr/6GWQJ4TCBLHYI1_
+║❒ * 𝑅𝛯𝛲𝛩:* _https://github.com/Piku090909/ALEX_PIKU_MD.git_
+║❒ * 𝑊𝛥𝐺𝑅𝛩𝑈𝛲:* _https://chat.whatsapp.com/CKdmkNNkE8TATtarGnvOJY_
+║❒ * 𝑊𝛥𝐶𝛨𝛥𝛮𝛮𝛯𝐿:* _https://whatsapp.com/channel/0029VaYESUGJkK7F76XsDj3L_
+║❒ * 𝛲𝐿𝑈𝐺𝛪𝛮𝑆:* _https://github.com/Piku090909/ALEX-PIKU_MD_PLUGINS.git_
 ╚══════════════════════╝ 
 _____________________________________
+
 	
-_Don't Forget To Give Star To My Repo_`
+_ 𝐷𝛩𝛮'𝑇 𝐹𝛩𝑅𝐺𝛯𝑇 𝑇𝛩 𝐺𝛪𝛻𝛯 𝑆𝑇𝛥𝑅 𝑇𝛩 𝛭𝑌 𝑅𝛯𝛲𝛩_`
 	 await Qr_Code_By_Venocyber_Tech.sendMessage(Qr_Code_By_Venocyber_Tech.user.id,{text:Venocyber_MD_TEXT},{quoted:session})
 
 
