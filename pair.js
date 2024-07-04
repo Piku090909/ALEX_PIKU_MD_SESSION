@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
              if(!Pair_Code_By_Venocyber_Tech.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Venocyber_Tech.requestPairingCode(num)
+                            const code = await Pair_Code_By_ALEX-PIKU-MD.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
@@ -53,14 +53,14 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_ALEX-PIKU-MD.sendMessage(Pair_Code_By_ALEX-PIKU-MD.user.id, { text: '' + b64data });
 
                let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
+*_Pair Code Connected by ALEX-PIKU-MD_*
+*_Made With ALEX-PIKU-MD_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
+║ *『 WOW YOU CHOOSEN ALEX-PIKU-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
@@ -75,7 +75,7 @@ ______________________________________
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
+ await Pair_Code_By_ALEX-PIKU-MD.sendMessage(Pair_Code_By_ALEX-PIKU-MD.user.id,{text:ALEX-PIKU-MD},{quoted:session})
  
 
         await delay(100);
@@ -94,6 +94,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await VENOCYBER_MD_PAIR_CODE()
+    return await ALEX_PIKU_MD_PAIR_CODE()
 });
 module.exports = router
