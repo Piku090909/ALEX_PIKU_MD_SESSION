@@ -56,21 +56,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
                let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
+*_Pair Code Connected by 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
+*_Made With 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷_*
 ______________________________________
-╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
+╔════◇𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷
+║ *『 WOW YOU CHOOSEN 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
+║❒ *Ytube:* _https://youtube.com/@sir-alex-piku-tech?si=WLrn-nEVhj20-5HI_
+║❒ *Owner:* _https://wa.me/qr/6GWQJ4TCBLHYI1_
+║❒ *Repo:* _https://github.com/Piku090909/ALEX_PIKU_MD.git_
+║❒ *WaGroup:* _https://chat.whatsapp.com/CKdmkNNkE8TATtarGnvOJY_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYESUGJkK7F76XsDj3L_
+║❒ *Plugins:* _https://github.com/Piku090909/ALEX-PIKU_MD_PLUGINS.git_
 ╚══════════════════════╝ 
 _____________________________________
 
